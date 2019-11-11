@@ -35,9 +35,15 @@ img {
 
   .dino-wrap {
     display: flex;
+    flex-wrap: wrap;
   }
 
-  .dino-wrap .dino:nth-child(2) {
+  .dino {
+    max-width: 50%;
+  }
+
+  .dino-wrap .dino:nth-child(2),
+  .dino-wrap .dino:nth-child(4) {
     display: inline-block;
   }
 
