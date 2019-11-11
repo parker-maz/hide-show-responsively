@@ -69,3 +69,21 @@ img {
   }
 
 }
+
+@media only screen and (min-width:60em) {
+
+  .dino-wrap {
+    display: flex;
+  }
+
+  .dino {
+    max-width: 25%;
+  }
+
+  .dino-wrap .dino:first-child,
+  .dino-wrap .dino:nth-child(2),
+  .dino-wrap .dino:nth-child(4) {
+    display: inline-block;
+  }
+
+}
