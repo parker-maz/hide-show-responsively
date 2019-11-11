@@ -16,3 +16,17 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+.dino {
+  display: inline-block;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.dino:nth-child(2),
+.dino:nth-child(4) {
+  display: none;
+}
